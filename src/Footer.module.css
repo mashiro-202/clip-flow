@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    background-color: transparent;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+}
+.pet {
+    border: none;
+    border-radius: 100%;
+    width: 60px;
+    height: 50px;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    opacity: 0.5;
+}

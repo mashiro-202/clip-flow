@@ -1,0 +1,36 @@
+.container{
+    display: inline-flex;
+    justify-self: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: hsla(0, 0%, 100%, 0.288);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+    transition: ease-in-out 0.3s;
+}
+.container:hover {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+.description {
+    margin-top: 0px;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}

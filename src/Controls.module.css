@@ -1,0 +1,120 @@
+.container{
+    position: fixed;
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+}
+.controlContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    background-color: hsla(208, 100%, 97%, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 50%;
+    min-width: 400px;
+    justify-self: center;
+    transition: 0.3s ease;
+    max-width: 700px;
+    gap: 20px; 
+}
+
+.search {
+    margin: 10px auto; /* Added margin to create spacing */
+    padding: 10px;
+    border: none;
+    width: calc(100% - 20px); /* Adjusted width to account for margins */
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    transition: text-indent 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease, margin 0.3s ease;
+    text-indent: 0;
+}
+.search::placeholder {
+    transition: opacity 0.3s ease; 
+    opacity: 1; 
+}
+.search:focus {
+    outline: none;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    
+}
+.search:focus::placeholder {
+    opacity: 0;
+}
+.tagSelect {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: hsl(208, 100%, 83%);
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    margin: auto;
+    outline: none;
+}
+
+.tagSelect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.option {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(208, 100%, 97%);
+    color: hsl(208, 100%, 50%);
+    font-weight: normal;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+.option:hover {
+    background-color: hsl(208, 100%, 90%);
+    color: hsl(208, 100%, 68%);
+    transform: translateX(5px);
+}
+
+.option:active {
+    background-color: hsl(208, 100%, 80%);
+    transform: translateX(0);
+}
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: hsl(208, 100%, 83%);
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    margin: auto;
+    text-align: center;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button:active {
+    background-color: hsl(208, 100%, 80%);
+    transform: scale(0.98);
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.button:focus {
+    outline: none;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.3);
+}
