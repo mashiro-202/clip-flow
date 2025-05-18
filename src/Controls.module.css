@@ -27,10 +27,10 @@
 }
 
 .search {
-    margin: 10px auto; /* Added margin to create spacing */
+    margin: 10px auto; 
     padding: 10px;
     border: none;
-    width: calc(100% - 20px); /* Adjusted width to account for margins */
+    width: calc(100% - 20px);
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     transition: text-indent 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease, margin 0.3s ease;
